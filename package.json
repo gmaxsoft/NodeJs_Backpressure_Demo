@@ -20,7 +20,10 @@
     "education",
     "demo"
   ],
-  "author": "",
+  "author": "Maxsoft",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
 }
