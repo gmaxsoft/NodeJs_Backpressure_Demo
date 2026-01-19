@@ -1,0 +1,14 @@
+# Pliki wygenerowane przez projekt
+large.txt
+output1.txt
+output2.txt
+
+# Node modules
+node_modules/
+
+# Logi
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

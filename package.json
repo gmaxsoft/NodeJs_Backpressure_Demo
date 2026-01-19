@@ -1,16 +1,26 @@
 {
   "name": "backpressure-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Demonstracja problemu backpressure w Node.js i jego rozwiązania",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "start:problem": "node app.js --solution=problem",
+    "start:pipeline": "node app.js --solution=pipeline",
+    "start:pipe": "node app.js --solution=pipe",
+    "start:all": "node app.js --solution=all",
+    "start:slow": "node app.js --slow",
+    "generate-file": "node generate-file.js",
+    "test": "node app.js --solution=all"
   },
-  "keywords": [],
+  "keywords": [
+    "backpressure",
+    "streams",
+    "nodejs",
+    "education",
+    "demo"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "type": "commonjs"
 }
